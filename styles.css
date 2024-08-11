@@ -1,0 +1,85 @@
+
+h1{ color: rgb(43, 39, 39);
+font-weight: lighter;
+font-size: 37px;
+text-align: center;
+text-transform: none;
+letter-spacing: 1px;
+padding-left: 150px;
+padding-top: 50px;
+text-shadow: 3px 2px 5px rgb(255, 255, 255)}
+
+h2 {font-family: "Arial", sans-serif;
+font-weight: lighter;
+font-size: 20px;
+padding-top: 100px;
+padding-left: 500px;
+}
+
+p{color: black;
+line-height: 1.4;
+font-family: "Arial", sans-serif;
+}
+
+.description{
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  left: 50px;
+  right: 50px;
+  width: 100%;
+}
+
+p.description{
+  font-size: 18px;
+}
+
+p.info{
+  color: rgb(48, 47, 47);
+  font-size: 15px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#welcome{
+  color: rgb(41, 38, 38);
+}
+
+#title{
+  font-family: cursive;
+}
+
+h3{
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  padding-top: 200px;
+  font-size: 15px;
+}
+
+p.more{
+  text-align: center;
+  font-family: cursive;
+  font-weight: lighter;
+  padding-top: 0.1px;
+  font-size: 14px;
+}
+
+
+.container{
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.centered {
+  position:absolute;
+  top: 5%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.image{
+  position: relative;
+  width: 100%;
+}
