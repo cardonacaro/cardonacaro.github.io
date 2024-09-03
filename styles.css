@@ -29,13 +29,12 @@ h1{
 p.more{
   font-family: "Arial", sans-serif;
   font-size: 18px;
-  
+
 }
 
 .more-container{
-  padding-top: 30%;
+  padding-top: 20%;
   text-align: center;
-  padding-bottom: 10%;
 }
 
 .fa {
@@ -45,6 +44,10 @@ p.more{
   text-align: center;
   text-decoration: none;
   margin: 5px 10px;
+}
+
+.car img{
+  align-content: center;
 }
 
 .fa:hover {
@@ -59,4 +62,8 @@ p.more{
 .fa-github{
   background: #f00cab;
   color: rgb(0, 0, 0);
+}
+
+.social{
+  text-align: center;
 }
