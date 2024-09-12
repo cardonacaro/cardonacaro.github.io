@@ -104,3 +104,99 @@ body, html{
   margin: 0;
   padding: 0;
 }
+
+/* responsive */
+
+@media (max-width:991px) {
+  .navbar-collapse {
+      position: absolute;
+  }
+}
+
+/* res. 768 x 1024 */
+
+@media (min-width:768px) and (max-width: 1023px){
+
+  .title-container, img{
+    width: 98%;
+    height: auto;
+    padding-top: 30%;
+  }
+
+ .car{
+  justify-content: center;
+  margin-left: 40%;
+  padding-top: 10%;
+  padding-bottom: 50%;
+ }
+
+ .desc-container{
+  padding-left: 5%;
+  padding-top: 20%;
+  padding-right: 5%;
+  padding-bottom: 30%;
+  text-align: center;
+}
+
+.more-container{
+  padding-top: 40%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.eepycar{
+  padding-top: 5%;
+  width: 60%;
+  height: auto;
+}
+
+}
+
+
+/* res 393 x 768 */
+
+@media (min-width:393px) and (max-width:767px) {
+  .navbar li{
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  } 
+
+  .title-container, img{
+    width: 98%;
+    height: auto;
+    padding-top: 50%;
+  }
+
+ .car{
+  justify-content: center;
+  margin-left: 35%;
+  padding-top: 10%;
+  padding-bottom: 50%;
+ }
+
+ .desc-container{
+  padding-left: 5%;
+  padding-top: 20%;
+  padding-right: 5%;
+  padding-bottom: 30%;
+  text-align: center;
+}
+
+.more-container{
+  padding-top: 40%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.eepycar{
+  padding-top: 5%;
+  width: 100%;
+  height: auto;
+}
+
+}
+
+
